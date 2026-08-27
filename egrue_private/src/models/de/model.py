@@ -1,0 +1,2 @@
+class DeepEnsemble:
+    name = "de"

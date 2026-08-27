@@ -1,0 +1,4 @@
+data_name="bonemarrow"
+IMG_SIZE = 224
+target_col="class"
+num_classes=8
