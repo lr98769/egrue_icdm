@@ -1,0 +1,10 @@
+Model,Acc,AUC
+ResNet18 Entropy,0.508 ± 0.056,0.841 ± 0.033
+ResNet18 MC Dropout,0.508 ± 0.058,0.841 ± 0.033
+Deep Ensemble,0.587 ± 0.033,0.901 ± 0.012
+ResNet18 RUE,0.508 ± 0.056,0.841 ± 0.033
+ResNet18 egRUE,0.508 ± 0.056,0.841 ± 0.033
+PostNet Aleatoric,0.412 ± 0.102,0.705 ± 0.076
+PostNet Epistemic,0.412 ± 0.102,0.705 ± 0.076
+BNN,0.395 ± 0.016,0.665 ± 0.006
+DEC,0.423 ± 0.019,0.616 ± 0.009

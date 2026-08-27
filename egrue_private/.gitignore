@@ -1,0 +1,27 @@
+background_code/*
+*.pyc
+notebooks/octmnist/lightning_logs/*
+checkpoints/predictions/octmnist/*/results-dpn-[0-9][0-9][0-9][0-9]-octmnist-[0-9][0-9][0-9][0-9]-conv-\[224, 224, 3\]-4.pickle
+checkpoints/predictions/isic/*/results-dpn-[0-9][0-9][0-9][0-9]-isic-[0-9][0-9][0-9][0-9]-conv-\[224, 224, 3\]-7.pickle
+checkpoints/predictions/blood/*/results-dpn-[0-9][0-9][0-9][0-9]-blood-[0-9][0-9][0-9][0-9]-conv-\[224, 224, 3\]-8.pickle
+**/logs/
+**/lightning_logs/*
+reference_code/*
+checkpoints/models/schs-lung/*/gpc.pkl
+notebooks/schs-crc/SCHS-CRC.ipynb
+checkpoints/models/schs-crc/*/gpc.pkl
+checkpoints/models/*/*/resnet_rnet_tuned.pt
+checkpoints/explanations/isic/*/test_*.npy
+notebooks/isic/explanations
+checkpoints/explanations/isic/2024
+checkpoints/explanations/octmnist/*/test_*.npy
+checkpoints/explanations/blood/*
+notebooks/isic/*
+checkpoints/consolidated/isic/*
+checkpoints/evaluation/isic/*
+checkpoints/explanations/isic/*
+checkpoints/history/isic/*
+checkpoints/models/isic/*
+checkpoints/predictions/isic/*
+.env
+.vscode/*
